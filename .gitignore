@@ -1,0 +1,37 @@
+# Archivos de compilación de Maven
+/target/
+/build/
+
+# Dependencias
+/.m2/
+
+# Archivos de configuración local
+*.properties.local
+application-local.properties
+HELP.md
+mvnw.cmd
+mvnw
+.env
+.gitattributes
+
+
+# Base de datos H2 (si se generan archivos locales)
+/*.db
+*.mv.db
+*.trace.db
+
+# Logs
+*.log
+
+# Archivos generados por el IDE
+/.idea/
+/*.iml
+/.vscode/
+
+# Archivos temporales
+*.swp
+*.swo
+*.class
+
+# Archivos de Docker (si no quieres incluirlos)
+/docker-compose.yml
